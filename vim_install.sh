@@ -52,6 +52,7 @@ fi;
 
 # install vim plugins
 vim +PluginInstall! +qall;
+vim +BundleInstall! +qall;
 
 # rm tmp dir
 # rm -rf ~/vim_tmp;
